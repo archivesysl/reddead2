@@ -1,0 +1,291 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c; /* Fundo escuro, quase preto */
+    color: #fff; /* Texto branco para contraste */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000; /* Preto */
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #e74c3c; /* Vermelho intenso, similar ao logo do jogo */
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Vermelho mais claro quando passar o mouse */
+}
+
+/* Seções principais */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    color: #e74c3c; /* Vermelho no título para destacar */
+    margin-bottom: 1.5rem;
+}
+
+main p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo para o menu responsivo */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+    main p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Estilo do contêiner das imagens */
+.image-container {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 800px; /* Limita a largura do contêiner */
+}
+
+/* Ajusta o tamanho das imagens */
+img {
+    width: 70%; /* Defina a largura das imagens para 70% do seu contêiner */
+    max-width: 600px; /* A imagem não ultrapassará 600px de largura */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 15px; /* Aumenta o espaço entre a imagem e a descrição */
+}
+
+/* Estiliza o texto da descrição abaixo das imagens */
+.image-container p {
+    font-size: 1rem;
+    color: #ddd; /* Cor de texto mais suave para contraste */
+    line-height: 1.5;
+    margin-top: 10px; /* Mais espaçamento entre a imagem e o texto */
+}
+
+/* Responsividade para as imagens */
+@media (max-width: 768px) {
+    .image-container img {
+        width: 90%; /* As imagens ocuparão 90% da largura do contêiner em telas menores */
+    }
+}
+
+/* Estilos básicos para a página */
+ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding-left: 0; /* Remove o espaçamento à esquerda */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Cor de fundo mais suave para o rodapé */
+    color: #e74c3c; /* Vermelho no rodapé */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Estilo da galeria de imagens */
+section {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 250px; /* Define o tamanho padrão das imagens */
+    height: auto; /* Mantém a proporção correta */
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
+/* Animação divertida para as imagens */
+.imagem-animada {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    animation: movimento 5s ease-in-out infinite;
+}
+
+@keyframes movimento {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    25% {
+        transform: scale(1.1) rotate(10deg);
+    }
+    50% {
+        transform: scale(1) rotate(0deg);
+    }
+    75% {
+        transform: scale(1.1) rotate(-10deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+/* Estilo da seção principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo do rodapé fixo */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Estilo da galeria de imagens */
+section {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre as imagens */
+}
+
+.gallery img {
+    width: 250px; /* Define a largura das imagens para que fiquem do mesmo tamanho */
+    height: 150px; /* Define uma altura fixa para as imagens */
+    object-fit: cover; /* Faz a imagem cobrir o espaço disponível sem distorcer */
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Estilo para o botão de link */
+.btn {
+    display: inline-block; /* Torna o link um botão clicável */
+    background-color: #e74c3c; /* Cor de fundo vermelha */
+    color: #fff; /* Texto branco */
+    padding: 5px 16px; /* Reduzido o padding */
+    font-size: 1rem; /* Tamanho de fonte menor */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border-radius: 2px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    margin-top: 10px; /* Adiciona um espaço acima do botão, se necessário */
+}
+
+.btn:hover {
+    background-color: #f39c12; /* Cor de fundo ao passar o mouse */
+}
+
+
+footer {
+    text-align: center; /* Alinha o texto no centro */
+    font-size: 0.9rem; /* Tamanho de fonte reduzido para o rodapé */
+    padding: 10px 0; /* Espaçamento superior e inferior mais leve */
+}
+
+footer a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #e74c3c; /* Cor do link */
+}
+
+footer a:hover {
+    color: #f39c12; /* Cor do link quando o mouse passa por cima */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Garantir que o conteúdo fique organizado */
+    clear: both; /* Impede que o botão seja sobreposto por outros elementos */
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer .btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #1DB954;  /* Cor verde característica do Spotify */
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 10px; /* Espaço entre o texto do rodapé e o botão */
+    transition: background-color 0.3s ease;
+}
+
+footer .btn:hover {
+    background-color: #1ed760; /* Verde claro para o efeito de hover */
+}
+
+
