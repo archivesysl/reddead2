@@ -289,3 +289,31 @@ footer .btn:hover {
 }
 
 
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-container p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.curiosidades {
+    padding: 15px;
+    background-color: #0c0b0b;
+}
+
+.curiosidades ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.curiosidades ul li {
+    margin-bottom: 10px;
+}
