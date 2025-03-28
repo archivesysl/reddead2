@@ -39,7 +39,9 @@ Abra o arquivo index.html:
 Após clonar o repositório, abra o arquivo index.html em seu navegador para visualizar o site localmente.
 
 Deploy
-O site foi hospedado na plataforma Vercel, garantindo acesso rápido e estável. Você pode acessar a versão online do projeto no seguinte link:https://reddead2-self.vercel.app/
+O site foi hospedado na plataforma Vercel, garantindo acesso rápido e estável. Você pode acessar a versão online do projeto no seguinte link:
+
+https://reddead2-self.vercel.app/
 
 Design e Responsividade
 O design foi criado com foco em simplicidade e acessibilidade, utilizando técnicas modernas de CSS. O layout é completamente responsivo, adaptando-se automaticamente a diferentes tamanhos de tela (desde smartphones até desktops), sem o uso de frameworks de terceiros como o Bootstrap.
