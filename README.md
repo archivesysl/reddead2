@@ -1,56 +1,38 @@
 # Projeto Red Dead Redemption 2 - Site Responsivo
 
-Este projeto é um website responsivo baseado no jogo *Red Dead Redemption 2*, criado como parte de uma atividade integradora da faculdade. O objetivo foi destacar alguns aspectos do jogo, como trilha sonora, personagens, e as cidades do universo do jogo, tudo com um design limpo e moderno.
+Este projeto é um **site responsivo** baseado no aclamado jogo **Red Dead Redemption 2**. Criado como parte de uma atividade integradora da faculdade, o site tem o objetivo de apresentar aspectos marcantes do jogo, incluindo sua **trilha sonora**, **personagens** e **cidades**, tudo com um design moderno e otimizado para diferentes dispositivos.
 
 ## Tecnologias Utilizadas
 
-- **HTML**: Estruturação do conteúdo do site.
-- **CSS**: Para o design e estilo visual do site.
-- **JavaScript**: Adicionado para interatividade e dinamicidade em certas partes do projeto.
-- **Bootstrap**: Não foi utilizado. O layout e responsividade foram feitos com CSS personalizado.
-- **Vercel**: Utilizado para hospedagem e deploy do projeto.
-
-## Estrutura do Projeto
-
-O site contém as seguintes seções:
-
-1. **Página Inicial (Home)**:
-   - Introdução ao mundo de *Red Dead Redemption 2* com destaque visual.
-   - Texto sobre o jogo, suas ambientações e temáticas.
-   
-2. **Sobre Mim**:
-   - Uma breve seção sobre você e seu interesse pelo jogo e pela programação.
-
-3. **Trilha Sonora**:
-   - Página dedicada à trilha sonora do jogo, com links integrados para o Spotify, permitindo que os usuários ouçam as músicas diretamente.
-   - Utilização de botões ou ícones que redirecionam para as playlists da trilha sonora no Spotify.
-
-4. **Cidades**:
-   - Destaque visual para as cidades que você gosta no jogo: **Valentine** e **Saint Denis**.
-   - Cada cidade tem uma breve descrição, com imagens que destacam suas características no jogo.
-
-5. **Personagens Favoritos**:
-   - Seção destacando seus personagens favoritos: **Arthur Morgan**, **Dutch Van Der Linde**, **Sadie Adler**, **John Marston**, entre outros.
-   - Inclui descrições curtas sobre os personagens e suas importâncias no enredo do jogo.
-
-6. **Design e Responsividade**:
-   - O design é simples e moderno, utilizando **CSS customizado** para garantir uma experiência de usuário consistente e responsiva em dispositivos móveis e desktops.
-   - **Sem Bootstrap**: O layout foi criado manualmente com **flexbox** e **grid**, ajustando-se automaticamente a diferentes resoluções de tela.
+- **HTML5**: Estruturação da página e conteúdo.
+- **CSS3**: Design e estilização visual personalizada.
+- **JavaScript**: Para adicionar interatividade e dinamicidade ao site.
+- **Vercel**: Plataforma de hospedagem e deploy.
+- **Não foi utilizado Bootstrap**: O layout e a responsividade foram implementados com **CSS puro**, utilizando **Flexbox** e **CSS Grid** para garantir uma experiência de usuário consistente em qualquer dispositivo.
 
 ## Funcionalidades
 
-- **Links Spotify**: Os links para a trilha sonora no Spotify foram implementados usando tags `<a>` com ícones ou textos, permitindo fácil navegação dos usuários até as playlists.
-- **Imagens Responsivas**: As imagens das cidades e personagens foram redimensionadas para se ajustarem a diferentes telas.
-- **Interatividade com JavaScript**: Em algumas partes do projeto, você utilizou JavaScript para aumentar a interatividade do site (por exemplo, animações de rolagem, menu interativo, etc.).
+- **Trilha Sonora**: Links diretos para as playlists da trilha sonora de **Red Dead Redemption 2** no **Spotify**, permitindo que os usuários ouçam as músicas diretamente no site.
+- **Cidades Favoritas**: Destaca as cidades mais emblemáticas do jogo, como **Valentine** e **Saint Denis**, com imagens e descrições sobre suas características.
+- **Personagens Favoritos**: Apresentação dos personagens mais marcantes do jogo, como **Arthur Morgan**, **Dutch Van Der Linde**, **Sadie Adler**, entre outros, com descrições que ressaltam sua importância na história.
+- **Responsividade**: O site é totalmente responsivo, oferecendo uma boa experiência tanto em **desktop** quanto em **dispositivos móveis**, sem a necessidade de frameworks como o Bootstrap.
+- **Interatividade**: Algumas seções do site utilizam **JavaScript** para fornecer animações e uma navegação interativa, como menus e transições suaves.
 
-## Deploy
+## Estrutura do Projeto
 
-O site está hospedado na plataforma **Vercel**, garantindo fácil acesso e rapidez no carregamento das páginas. O link do site é:
+O site é composto pelas seguintes seções:
 
-- [Projeto Red Dead Redemption 2](https://reddead2-self.vercel.app)
+- **Página Inicial (Home)**: Introdução ao universo de **Red Dead Redemption 2**, com um destaque visual imersivo do jogo e suas principais temáticas.
+- **Sobre Mim**: Uma breve seção sobre o criador do site, incluindo seu interesse pelo jogo e por programação.
+- **Trilha Sonora**: Página dedicada à trilha sonora do jogo, com links para as playlists no **Spotify**.
+- **Cidades**: Seção que explora as cidades **Valentine** e **Saint Denis**, destacando suas características e imagens representativas.
+- **Personagens Favoritos**: Apresentação dos personagens mais significativos do jogo, com descrições curtas sobre cada um.
 
 ## Como Executar Localmente
 
-1. Clone o repositório:
+1. **Clone o repositório**:
+   
+   Abra seu terminal e execute o seguinte comando para clonar o repositório para sua máquina local:
+
    ```bash
-   git clone https://github.com/archivesysl/redeadm2-project.git
+   git clone https://github.com/archivesysl/reddead2-project.git
